@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: ranjith-micro
-          image: ramann123/ssecure-ranjith-customer-orders-service:latest
+          image: ramann123/ssecure-raman-customer-orders-service:latest
           ports:
             - containerPort: 5000
           resources:
