@@ -1,23 +1,23 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: raman-micro
+  name: ranjith-micro
   labels:
-    app: raman-micro
-  namespace: raman
+    app: ranjith-micro
+  namespace: ranjith
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: raman-micro
+      app: ranjith-micro
   template:
     metadata:
       labels:
-        app: raman-micro
+        app: ranjith-micro
     spec:
       containers:
-        - name: raman-micro
-          image: ramann123/ssecure-raman-customer-orders-service:latest
+        - name: ranjith-micro
+          image: ranjithn123/ssecure-ranjith-customer-orders-service:latest
           ports:
             - containerPort: 5000
           resources:
