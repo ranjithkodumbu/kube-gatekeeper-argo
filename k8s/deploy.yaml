@@ -4,6 +4,7 @@ metadata:
   name: raman-micro
   labels:
     app: raman-micro
+  namespace: raman
 spec:
   replicas: 1
   selector:
