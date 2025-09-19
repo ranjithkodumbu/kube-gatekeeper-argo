@@ -6,7 +6,7 @@ metadata:
     app: ranjith-micro
   namespace: ranjith
 spec:
-  replicas: 5
+  replicas: 1
   selector:
     matchLabels:
       app: ranjith-micro
